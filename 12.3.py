@@ -1,7 +1,7 @@
 def mediana_sort(L, left, right):
     result = L[left:right + 1]
     result = sorted(result)
-    print(result)
+    # print(result)
     if len(result) % 2 == 1:
         return result[int((left + right) / 2)]
     else:
